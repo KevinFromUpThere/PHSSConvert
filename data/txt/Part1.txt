@@ -236,7 +236,7 @@ For my sin to atone.
 Go to Gethsemane, my soul,
 Watch with the Saviour there; Ponder His pretaste of the cup,
 Then to the cross repair. 
-9* EDEN
+9 EDEN
 1 .
 BEHOLD a spotless Victim dies,
 Our surety on the cross;
@@ -257,7 +257,7 @@ Our joy to His sorerief we trace, His death brings life and heaven.
 And, while the ages roll along,
 This shall our glory be,
 And this the new and endless song�His love to us, to me.
-10* DURHAM
+10  DURHAM
 1. 
 THE Lamb of God to slaughter led, The King of glory see,
 A crown of thorns upon His head; They nail Him to the tree.
@@ -289,7 +289,7 @@ In that face, once marred and smitten, All His glory now we read.
 5. 
 Rise, our hearts, and bless the Father; Ceaseless song e'en here begun�Endless praise and adoration
 To the Father and the Son. Amen.
-12* caPOHR
+12 caPOHR
 1. 
 How deep and grievous was the woe Of Christ upon the cross!
 It laid the mighty Saviour low
@@ -376,7 +376,7 @@ To bring us rebels back to God. So may we glory in His name,
 As those redeemed by precious blood. Pardon and fife flowed from His side, When He our Lord was crucified.
 3
 Then let us glory in the cross, [theme; Make Christ our boast, our constant All things for Him account but loss, And now for Him despise the shame. Let nought with Him our hearts divide Since He for us was crucified.
-17* HUSHED WAS THE EVENING HYMN
+17 HUSHED WAS THE EVENING HYMN
 1. 
 HIMSELF He could not save, He on the cross must die, Or mercy could not come To ruined sinners nigh.
 Yes, Christ the Son of God must bleed,
@@ -394,7 +394,7 @@ But now exalted high,
 A Prince and Saviour He
 Has saved and brought us nigh. We live in Him who lives above,
 And sing with joy His deathless love.
-18*t EWING
+18t EWING
 1.
 THE Author of salvation Was offered on the tree,
 His deep humiliation
@@ -434,7 +434,7 @@ His cross for evermore;
 Once like the world benighted,
 His name we now adore. Amen.
 
-19* TRICHINOPOLY
+19 TRICHINOPOLY
 1.
 THE head once full of bruises,
 So full of pain and scorn,
@@ -443,7 +443,7 @@ Mocked with a crown of thorn, That head is now surrounded
 With brightest majesty;
 In death once bowed and wounded, Accursed on the tree.
 
-20*t MUNICH
+20t MUNICH
 1.
 No bone of Him was broken�The spotless paschal Lamb; Of life and peace a token
 To us who know His name. The Head for all the members
@@ -492,7 +492,7 @@ We eat and drink with gladness
 The broken bread and wine, And sing with sweetest sadness
 Our song of love divine.
 
-21* DUNSTAN
+21 DUNSTAN
 1. 
 CROWNED with thorns upon the tree, Silent in His agony,
 Dying crushed beneath the load
@@ -503,7 +503,7 @@ On His grief and sore amaze We would fix our earnest gaze.
 3. 
 Sin-atoning sacrifice,
 Oh how precious in our eyes! He alone our rest shall be, Now and through eternity.
-22* MAINZER
+22 MAINZER
 1. 
 SWEET is the savour of His name Who suffered in His people's stead; His portion here reproach and shame, He liveth now, He once was dead.
 2. 
@@ -515,7 +515,7 @@ He once was dead; but now He lives, His glory fills all heaven above;
 Its blessedness to heaven He gives, The fountain He of joy and love.
 5. 
 His people shall His triumph share, With Him shall live and with Him reign, In heaven their joy is full, for there They see Him who for them was slain.
-23*
+23
 INNOCENTS
 1. 
 LET us join our God to bless For His Son our righteousness,
@@ -546,7 +546,7 @@ Sing His blest triumphant rising,
 He is on the Father's throne;
 Sing till heaven and earth surprising
 He shall reign and He alone.
-25*t VESPER
+25t VESPER
 1. 
 SPOTLESS Lamb by God provided!
 Here upon His face we gaze,
@@ -602,7 +602,7 @@ When He comes, the glorious King,
 All His ransomed home to bring,
 Then anew this song we'll sing, 
 Hallelujah! what a Saviour!
-27* NAOMI
+27 NAOMI
 1
 THE love of God, it melts our hearts, Like ice before the sun;
 And fills our eyes with grateful tears,
@@ -625,8 +625,8 @@ And let us praise Him now
 For wondrous love through Christ
 displayed,
 While at His throne we bow.
-28 Gm IS LOVE
-Goo is love, His word has said it,
+28 GOD IS LOVE
+God is love, His word has said it,
 This is news of heavenly birth; In our hearts His Spirit shed it,
 Made us know it here on earth,
 That God is love. 
@@ -659,7 +659,7 @@ Triune God of love and grace;
 Joyful bow the knee before Him,
 Laud His goodness, sound His praise, For God is love.
 
-29* DUKE STREET
+29 DUKE STREET
 0 BLESSED God, our voice we raise
 To speak Thy worth and sing Thy praise, For love that made Thee give Thy Son For sinners ruined and undone.
 2. 
@@ -701,7 +701,7 @@ To Thee is highest glory due, And ages shall its weight accrue,
 For this that Thou hast done. So now we'd join that mighty song That age on age shall echo on,
 Praise for Thy gift�Thy Son.
 
-31* NEW HEREFORD
+31 NEW HEREFORD
 1
 BLEssin be God, our God,
 Who gave for us His well-beloved Son, The gift of gifts, all other gifts in one; Blessed be God, our God!
@@ -726,7 +726,7 @@ The victory is ours!
 For us in might came forth the Mighty One;
 For us He fought the fight, the triumph won; The victory is ours!
 
-32* OLIVET (DACTYLIC)
+32 OLIVET (DACTYLIC)
 GLORY to God on high, Peace upon earth and
 Goodwill to man.
 We who God's blessing prove
@@ -795,7 +795,7 @@ We praise Thy name.
 Taught by the heavenly Dove,
 We lift our hearts above,
 We sing Thy power and love,
-We praise Thy name. 35* HARTS
+We praise Thy name. 35 HARTS
 1
 GLORY to the Holy Three, Father, Son and Spirit be;
 Him who gave, and Him who died, Him who with us doth abide.
@@ -814,7 +814,7 @@ Glory, honour. worship be
 To the undivided Three. Amen.
 
 JOHN J
-ST. 36* -
+ST. 36 -
 1
 WHAT was it, 0 our God, Led Thee to give Thy Son, To yield Thy Well-beloved For us by sin undone?
 'Twas love unbounded led Thee thus
@@ -1162,8 +1162,9 @@ All the powers of heaven adore Him, All obey His sovereign word.
 6. 
 Then haste, ye saints, your tribute bring And laud the everlasting King;
 Laud Him,
-Laud the everlasting King. 54 MIGDOL
-Loox, ye saints, the sight is glorious,
+Laud the everlasting King. 
+54 MIGDOL
+Look, ye saints, the sight is glorious,
 See the Man of Sorrows now!
 From the fight returned victorious,
 Every knee to Him shall bow.
@@ -1214,7 +1215,7 @@ Son of Man, His incarnation
 Opened first the tale of grace. Son of Man, in new creation
 Leader of a chosen race.
 Well may glory
-Own Him in the highest place. 56* ST. GEORGE'S EORGE'S WINDSOR
+Own Him in the highest place. 56 ST. GEORGE'S EORGE'S WINDSOR
 1. 
 CROWNS of glory ever bright Rest upon the Victor's head. Crowns of glory are His right, His who liveth and was dead. Jesus fought and won the day, Such a day was never fought! Well His people now may say, See what God, our God, has wrought.
 2. 
@@ -1225,7 +1226,7 @@ Jesus triumphed by His power, And His triumph is complete.
 His the fight, the arduous toil, His the honours of the day, His the glory and the spoil, Jesus bears them all away. Now exalt His peerless name, Sing aloud of His renown�His the never-dying fame,
 His the well-deserved crown!
 
-57* LUTHER'S HYMN
+57 LUTHER'S HYMN
 1
 THE Lord of glory! Who is He?
 Who is the King of glory? Only the Son of God can be
@@ -1249,7 +1250,8 @@ Thrice happy who in Him believe,
 They soon shall share His glory; Born of His Spirit, they receive
 His secret pledge of glory.
 Taught by His cross. for sin they grieve; He calls them brethren, and they cleave
-To Him, their hope of glory. 58 EGYPT
+To Him, their hope of glory. 
+58 EGYPT
 1. 
 THE mighty work is done; He who the victory won
 No more will die; He lives on high,
@@ -1384,7 +1386,7 @@ Are all fulfilled, and now withdraw.
 4. 
 And though awhile He be Hid from the eyes of men, His people look to see
 Their great High Priest again. In brightest glory He will come And take His waiting people home.
-65* DIJON
+65 DIJON
 1. 
 JESUS in the heavenly temple
 Sits with God upon the throne, Now no more to be forsaken,
@@ -1403,7 +1405,7 @@ On His heart our names are graven,
 On His shoulders we are borne. For His sake the Father loves us;
 Praise becomes us in return.
 
-66* MARINERS
+66 MARINERS
 1
 RISE, each soul, behold, 'tis Jesus! Jesus fills our wondering eyes; See Him now in glory seated
 Where our sins no more can rise.
@@ -1534,7 +1536,7 @@ While we hear the wondrous story Of the Saviour's cross and shame,
 Sing we, " Everlasting glory
 Be to God and to the Lamb." Hallelujah!
 Give ye glory to His name.
-71* BELMONT
+71 BELMONT
 1
 IN Christ the Lord our eyes behold
 A thousand glories more
@@ -1674,9 +1676,8 @@ In Him who pleased Thee;
 Now of His peace, His joy, possessed, We wait His face to see.
 Now to Thy heart, 0 God, received, We know Thee whom we have believed.
 
-78* PIETY
-IETY
-1 .
+78 PIETY
+1.
 COME, let us sing the matchless worth, And sweetly sound the praises forth, Which in the Saviour shine;
 To God our praise of Christ we'll bring, The song with which the heavens ring We'll join through grace divine.
 2. 
@@ -1691,8 +1692,9 @@ In songs of sweet, untiring praise We would to everlasting days Make all His glo
 4. 
 And soon the happy day shall come When we shall reach our destined home, And see Him face to face;
 Then with our Saviour, Master, Friend, The glad eternity we'll spend,
-And celebrate God's grace. 79 LYMINGTON
-1 .
+And celebrate God's grace. 
+79 LYMINGTON
+1.
 BY Thee, 0 God, invited
 We look unto the Son,
 In whom Thy soul delighted,
@@ -1747,7 +1749,7 @@ Set us before Thy throne Of highest exaltation
 Midst glories yet unknown.
 
 81 it WONDERFUL LOVE
-1 .
+1.
 LORD, we adore Him who came from Thy side Long, long ago,
 Leaving the glory that heaven could provide, Coming to suffering and woe.
 Jesus our Lord�
@@ -1767,19 +1769,19 @@ Laid in a manger, eternally God!
 We will remember His wonderful life, Doing Thy will.
 Perfect obedience midst sorrow and strife
 Led Him to Calvary's hill.
-Jesus our Lord�
+Jesus our Lord
 Loving and giving each step of the way.
 5. 
 We will remember His death on the tree, Blest be His name!
 Suffering the just for the unjust was He; 'Twas for this purpose He came.
-Jesus our Lord�
+Jesus our Lord
 Giving Himself, our Redeemer to be.
 
 6.
 We will remember He rose from the dead, Mighty to save.
 Living for ever, our glorious Head
 Conquered the power of the grave.
-Jesus our Lord�
+Jesus our Lord
 Praises for Him we present unto Thee.
 
 82 THANKSGIVING
@@ -1788,7 +1790,8 @@ HALLELUJAH! let US sing
 As we now thank offerings bring; " Hallelujah " is the word,
 Sound aloud, "Praise ye the Lord;" Hallelujah! He has given
 Best of gifts, His Son from heaven. Hallelujah! this is love
-Worthy of our God above. 83 NEWCASTLE
+Worthy of our God above. 
+83 NEWCASTLE
 THE countless multitude on high
 Who tune their songs to Jesus' name, All merit of their own deny,
 And Jesus' worth alone proclaim. Firm on the ground of sovereign grace They stand before Jehovah's throne; The only song in that blest place
@@ -1837,10 +1840,8 @@ And found the ransom too. [scheme, Let all the saints their voices raise,
 And sing the great Redeemer's praise,
 While endless ages flow.
 
-Section 4. The Fruits of the Accomplished Work
 85 siLCHESTER
-
-1
+1.
 NOT to ourselves we owe That we, 0 God, are Thine;
 Jesus, the Sun, our night broke through And gave us light divine.
 2.
@@ -1935,7 +1936,7 @@ His name, His might, His grace we sing.
 
 Section 5. Our Access into the Holies
 
-89 * t EVELYN
+89  t EVELYN
 FOR the bread and for the wine, For the pledge that seals Him mine, For the words of love divine,
 We give Thee thanks, 0 Lord.
 2. 
@@ -1962,7 +1963,7 @@ We give Thee thanks, 0 Lord.
 For that coming here foreshown, For that day to man unknown, For the glory and the throne,
 We give Thee thanks, 0 Lord.
 
-90 *t
+90 t
 ALMSGIVING
 
 
@@ -2566,7 +2567,8 @@ Us eternally to bless.
 For the life He lived below,
 For the cross with all its woe,
 For His glorious victory,
-We would praise and worship Thee. 117 REGENT SQUARE
+We would praise and worship Thee. 
+117 REGENT SQUARE
 1
 SOVEREIGN grace o'er sin abounding,
 Ransomed souls the tidings swell; 'Tis a deep that knows no sounding,
@@ -2711,8 +2713,6 @@ To Him who is able
 To keep us�His called ones, Preserved in Christ Jesus, The saints of the Father�To keep us from falling, And faultless to set us Before His bright glory
 With fulness of joy,
 
-
-
 127 GLORY
 GLORY, honour, praise and power Be unto the Lamb for ever.
 Jesus Christ is our Redeemer,
@@ -2749,90 +2749,59 @@ To the Father, to the Son,
 To the Spirit, praise be given; One in Three and Three in One, Lord of earth and Lord of heaven.
 Hallelujah! Amen, amen.
 
-136 GREGORIAN
-From Psalm 113
+136 GREGORIAN From Psalm 113
 I PRAISE ye Jah, praise 0 ye servants I of Je- 1 -hovah 11 Praise ye Je- I -hovah's I name H
 Blessed be Je- I -hovah's I name II
 From this time forth I and for I ever- I -more II
-2 From the rising to the setting I of the I sun Jehovah's I name is Ito be I praised II
+2.
+ From the rising to the setting I of the I sun Jehovah's I name is Ito be I praised II
 Jehovah is high a- I -bove all I nations H And His I glory : a- I -bove the I heavens II
-3 Who is like unto Je- I -hovah : our I God II That I hath His I seat on I high II
+3.
+ Who is like unto Je- I -hovah : our I God II That I hath His I seat on I high II
 He raiseth up the poor man out : of the I dust And lifteth up the I needy from the I dunghill II
-4 That He may make him I sit with I princes I Even with the I princes I of His I people I
+4.
+ That He may make him I sit with I princes I Even with the I princes I of His I people I
 Praise ye lah, blessed be Je- I -hovah's I name II
 From this time forth I and for I ever- I -more II
-137 GREGORIAN
-From Psalm 115
+137 GREGORIAN From Psalm 115
 I NOT unto us 0 Jehovah not unto us but unto Thy I name give I glory Because of Thy loving- I -kindness I because : of Thy I truth II Ye that fear Jehovah I trust : in Je- I -hovah H
 He is their help I and their I shield II
-2 He will bless them that I fear Je- I -hovah II
+2.
+ He will bless them that I fear Je- I -hovah II
 Both the I small I and the I great II
 We will I bless I Jah If
 From this time forth I and for I ever- I -more II
-138 HAVERGAL
-From Psalm 96
-1 0 SING unto Jehovah a I new I song II
+138 HAVERGAL From Psalm 96
+1.
+0 SING unto Jehovah a I new I song II
 Sing unto Je- -hovah I bless His I name II
 For great is Jehovah and highly Ito be I praised H He is to be I feared a- f -bove all I gods II
-2 Honour and majesty I are be- I -fore Him II
+2.
+Honour and majesty I are be- I -fore Him II
 Strength and I beauty : are I in His I sanctuary II Give unto Jehovah I glo- : ry and I strength II
 Give unto Jehovah the glory I due un- I -to His I name II
-
-139 H
-_AVERGAL
-From Psalms 134, 135
-1 BEHOLD bless ye Jehovah all ye servants I of Je- I -hovah I I
-Who stand I in Je- I -hovah's I house I I
-Lift up your hands in the I holy I place II
-And bless I ye bless I ye Je- I -hovah
-2 Praise ye Joh, praise ye Je- I -hovah's I name Praise Him, 0 ye I servants I of Je- I -hovah II Ye that stand in Je- I -hovah's I house II
-In the courts of the I house I of our I God II
-3 Praise ye Jah, for Je- I -hovah is I good II
-Sing psalms to His I name for 1 it is I pleasant 1 i Ye that fear Jehovah bless I ye Je- I -hovah II Blessed be Je- I -hovah I praise I ye I Jah I I
-140 BELLAMY
-From Psalm 136
-1 0 GIVE thanks unto Jehovah for I He is I good II
-For His loving- I -kind-: ness en- I -dur- : eth for I ever I I
-2 0 give thanks unto the I God of I gods II
-For His loving- I -kind- : ness en- I -dur- : eth for I ever II
-3 0 give thanks unto the I Lord of I lords II
-For His loving- I -kind- : ness en- I -dur- : eth for I ever II
-4 To Him who alone doeth I great I wonders II
-For His loving- I -kind- : ness en- I -dur- : eth for I ever I I
-5 Who remembered us in our I low e- I -state II
-For His loving- I -kind- : ness en- I -dur- : eth for I ever II
-6 And hath delivered us from our I adver- I -saries II
-For His loving- I -kind- : ness en- I -dur- : eth for I ever I I
-7 0 give thanks unto the I God of I heaven II
-For His loving- I -kind- : ness en- I -dur- : eth for I ever II
-
-141 LANGDON
-From 1 Cor. 15.55, 57
+141 LANGDON From 1 Cor. 15.55, 57
 0 DEATH where I is thy I victory? II
 0 Death where I is thy I sting ? II
 Thanks be to God who giveth I us the I victory II Through I Jesus I Christ our I Lord II
-142 LANGDON
-From 2 Cor. 8.9; 9.15
+142 LANGDON From 2 Cor. 8.9; 9.15
 WE know the grace of our Lord I Jesus I Christ II
 That though He was rich, yet for I our sakes I He be- : came I poor II That we through His poverty I might be- : come I rich II
 Thanks be to God for [ His un- I -speak- : able I gift II
-143 LANGDON
-From Romans 11.33, 36
+143 LANGDON From Romans 11.33, 36
 OH the depth of the riches of the wisdom and the I know- : ledge of I God II How unsearchable are His judgments and His I ways past I tracing I out II Of Him and through Him and unto I Him are I all things II
 To I Him : be the I glory : for I ever II A- I -men II
-144 ANGDON
-From Hebrews 13.20, 21
+144 ANGDON From Hebrews 13.20, 21
 To the God of peace who brought again I from the I dead II Our Lord Jesus the great I Shepherd I of the I sheep II With the blood of the ever- I -lasting I covenant II
 To Him be the I glo- : ry for I e- : ver and I ever II A- I -men II
-145 LANGDON
-From 1 Tim. 1.17
+145 LANGDON From 1 Tim. 1.17
 UNTO the I King e- I -ternal II
 Incorruptible I in- I -visi- I -ble II
 Unto the I only I God II
 Be honour and I glo- : ry for I e- : ver and I ever II A I -men II
 
-Section 8. Closing Hymns
-146t EVENTIDE
+
+146  EVENTIDE
 HERE, blessed God, we see Him face to face; Here faith can touch and handle things unseen;
 Here would we grasp with firmer hands His grace, And all our weariness upon Him lean.
 2. 
@@ -2859,11 +2828,10 @@ To Christ the Saviour's endless praise.
 2. 
 Amen, one lasting, long Amen�Heaven's blissful cadence, deep and loud, While every heart before the throne
 In holy, solemn awe is bowed.
-
-3
+3.
 Amen, Amen, it rolls along, Re-echoing from the throne again; Be ours to mingle with the throng In that eternal, loud Amen.
 148f RICHMOND
-1
+1.
 LORD of the worlds above, How pleasant and how fair The dwellings of Thy love, The heavenly mansions are!
 To Thine abode
 Our hearts aspire With warm desire To see our God.
@@ -2872,7 +2840,8 @@ There is Thy throne of grace, And there the sprinkled blood; There lives before 
 His name our plea,
 We now draw near
 In holy fear
-To worship Thee. 149 WEBER
+To worship Thee. 
+149 WEBER
 1. 
 CHRIST has done the mighty work; Nothing left for us to do
 But to enter on His toil,
@@ -2886,7 +2855,6 @@ His the agony and strife.
 He has sown the precious seed, Nothing left for us unsown; Ours it is to reap the field, Make the harvest joy our own.
 
 150 PAX DEL
-
 1. 
 JEHOVAH God the Father, bless and keep His little flock of feeble lambs and sheep; Jehovah God the Son, His glorious face Make shine on us, so full of kindly grace;
 2. 
@@ -2922,6 +2890,5 @@ We met in Thine own name And in Thy name we part.
 Hosanna to th' anointed King,
 To God's most holy Son!
 With gladsome hearts we now would bring Our praise unto the throne.
-
 Blessed are they that dwell in Thy house,
 They will be still praising Thee.

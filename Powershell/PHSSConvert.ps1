@@ -11,8 +11,10 @@ write-host Source File = $Filepath
 write-host $maxlines total lines in the source file
 $EOL = "`r`n"
 $alphapattern = '[^a-zA-Z]'
-$numberpattern = '[^0-9]'
+$numberpattern = '[0-9]'
+$isfirstline = '1'
 $CurrentSong = '<?xml version="1.0" encoding="UTF-8"?>' + $EOL + ' <song> '
+
 
 foreach ($line in $source)
 {
@@ -42,15 +44,17 @@ foreach ($line in $source)
                        $CurrentSong = $CurrentSong + '<backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>'+ $EOL + '</song>'+ $EOL
 
            #Handle writing of the previous song
-            $OutPutFileName = $OutputFolder + $songtitle + '.txt'
+            $OutPutFileName = $OutputFolder + $songtitle + ' ' + $firstline + '.txt'
             $CurrentSong >> $OutPutFileName
   
            #Begin work on the current song
+            
             $SongTuneName = $line.Replace($alphapattern,'') 
-            $CurrentSong = $CurrentSong = '<?xml version="1.0" encoding="UTF-8"?>' + $EOL + ' <song> '+ $EOL
+            $CurrentSong = '<?xml version="1.0" encoding="UTF-8"?>' + $EOL + ' <song> '+ $EOL
             $CurrentSong = $CurrentSong + '<title>' + $line + '</title>'+ $EOL + '<lyrics> [V1]' + $EOL
             $songtitle = $line  #todo add first line to this
             $hymnnumber = $line.Replace($numberpattern,'')
+            $isfirstline = '1'
 
         }
 
@@ -70,7 +74,11 @@ foreach ($line in $source)
         {   
               #to-do collect first line
               # write-host normal line $line
-              $CurrentSong = $CurrentSong + $line + $EOL
+              $CurrentSong = $CurrentSong + ' ' + $line + $EOL
+              if ($isfirstline -eq '1') {
+                  $firstline = $line
+                  $isfirstline = 0
+              }
         }
 
 
