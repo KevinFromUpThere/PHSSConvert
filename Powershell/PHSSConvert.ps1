@@ -44,7 +44,7 @@ foreach ($line in $source)
                        $CurrentSong = $CurrentSong + '<backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>'+ $EOL + '</song>'+ $EOL
 
            #Handle writing of the previous song
-            $OutPutFileName = $OutputFolder + $songtitle + ' ' + $firstline + '.txt'
+            $OutPutFileName = $OutputFolder + $hymnnumber + ' ' + $firstline #+ '.txt'
             $CurrentSong >> $OutPutFileName
   
            #Begin work on the current song
@@ -52,8 +52,7 @@ foreach ($line in $source)
             $SongTuneName = $line.Replace($alphapattern,'') 
             $CurrentSong = '<?xml version="1.0" encoding="UTF-8"?>' + $EOL + ' <song> '+ $EOL
             $CurrentSong = $CurrentSong + '<title>' + $line + '</title>'+ $EOL + '<lyrics> [V1]' + $EOL
-            $songtitle = $line  #todo add first line to this
-            $hymnnumber = $line.Replace($numberpattern,'')
+            $hymnnumber = $line.Replace($numberpattern,'')  #TO-DO fix this, it's not working
             $isfirstline = '1'
 
         }
@@ -77,7 +76,9 @@ foreach ($line in $source)
               $CurrentSong = $CurrentSong + ' ' + $line + $EOL
               if ($isfirstline -eq '1') {
                   $firstline = $line
+        #TO-DO remove punctuation from first line
                   $isfirstline = 0
+
               }
         }
 
