@@ -11,7 +11,7 @@ write-host Source File = $Filepath
 write-host $maxlines total lines in the source file
 $EOL = "`r`n"
 $alphapattern = '[^a-zA-Z]'
-$numberpattern = '[0-9]'
+$numberpattern = '[^0-9]'
 $isfirstline = '1'
 $CurrentSong = '<?xml version="1.0" encoding="UTF-8"?>' + $EOL + ' <song> '
 
@@ -45,14 +45,18 @@ foreach ($line in $source)
 
            #Handle writing of the previous song
             $OutPutFileName = $OutputFolder + $hymnnumber + ' ' + $firstline #+ '.txt'
-            $CurrentSong >> $OutPutFileName
+        #    $CurrentSong >> $OutPutFileName
+            $CurrentSong | Out-File -Encoding "UTF8" $OutPutFileName
   
            #Begin work on the current song
             
-            $SongTuneName = $line.Replace($alphapattern,'') 
+            $SongTuneName = $line -replace $alphapattern,''
             $CurrentSong = '<?xml version="1.0" encoding="UTF-8"?>' + $EOL + ' <song> '+ $EOL
-            $CurrentSong = $CurrentSong + '<title>' + $line + '</title>'+ $EOL + '<lyrics> [V1]' + $EOL
-            $hymnnumber = $line.Replace($numberpattern,'')  #TO-DO fix this, it's not working
+            $CurrentSong = $CurrentSong + '<title>' + $line + '</title>'+ $EOL + '<lyrics>[V1]' + $EOL
+            $hymnnumber = $line  -replace $numberpattern,''  #TO-DO fix this, it's not working
+            write-host full line $line
+            write-host hymn number $hymnnumber 
+            write-host tune $SongTuneName
             $isfirstline = '1'
 
         }
@@ -61,9 +65,8 @@ foreach ($line in $source)
     #check for new verse
      if ($line -match '[2-9]+\.')  #Add - and DOES have a dot after the nunber regex > \n[1-9]+\.
         {     
-           # write-host new verse $line
-           $line = $line.replace(' ','')
-           $line = '[V' + $line.replace('.','') + ']'
+           $line = $line  -replace $numberpattern,''
+           $line = '[V' + $line + ']'
             $CurrentSong = $CurrentSong + $line + $EOL
 
         }
@@ -72,10 +75,9 @@ foreach ($line in $source)
     if ($line -match '[A-Z]+ ') 
         {   
               #to-do collect first line
-              # write-host normal line $line
               $CurrentSong = $CurrentSong + ' ' + $line + $EOL
               if ($isfirstline -eq '1') {
-                  $firstline = $line
+                  $firstline = $line -replace $alphapattern+' ',''
         #TO-DO remove punctuation from first line
                   $isfirstline = 0
 
