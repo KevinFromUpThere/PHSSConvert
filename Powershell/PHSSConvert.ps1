@@ -73,7 +73,7 @@ foreach ($line in $source)
               $line = $line -replace '1. ',''
               $CurrentSong = $CurrentSong + ' ' + $line + $EOL
               if ($isfirstline -eq '1') {
-                  $firstline = $line -replace $alphapattern+' ','' #remove punctuation from first line so it can be used in filenames etc
+                  $firstline = $line -replace '[^a-zA-Z ]','' #remove punctuation from first line so it can be used in filenames etc
                   $isfirstline = 0
               }
         }
