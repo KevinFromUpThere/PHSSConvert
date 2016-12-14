@@ -45,9 +45,9 @@ foreach ($line in $source)
                        $CurrentSong = $CurrentSong + '<backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>'+ $EOL + '</song>'+ $EOL
 
            #Handle writing of the previous song
-            $OutPutFileName = $OutputFolder + $hymnnumber + ' ' + $firstline #+ '.txt'
+            $OutPutFileName = $OutputFolder + $hymnnumber + ' ' + $firstline # Opensong files have no extension
         #    $CurrentSong >> $OutPutFileName
-            $CurrentSong | Out-File -Encoding "UTF8" $OutPutFileName
+            $CurrentSong | Out-File -Encoding "UTF8" $OutPutFileName    #must be formatted in UTF8-BOM for opensong
   
            #Begin work on the current song
             $SongTuneName = $line -replace $alphapattern,''  #Clean numbers from this line
@@ -59,7 +59,7 @@ foreach ($line in $source)
 
 
     #check for new verse
-     if ($line -match '[2-9]+\.')  #Add - and DOES have a dot after the nunber regex > \n[1-9]+\.
+     if ($line -match '[2-9]+\.')  #Add - and DOES have a dot after the nunber regex > \n[1-9]+\.  Start at verse 2 because verse 1 is handled at the begining of file
         {     
            $line = $line  -replace $numberpattern,''  #remove the dot from the verse 
            $line = '[V' + $line + ']'
