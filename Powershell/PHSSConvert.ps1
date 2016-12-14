@@ -45,8 +45,7 @@ foreach ($line in $source)
                        $CurrentSong = $CurrentSong + '<backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>'+ $EOL + '</song>'+ $EOL
 
            #Handle writing of the previous song
-            $OutPutFileName = $OutputFolder + $hymnnumber + ' ' + $firstline # Opensong files have no extension
-        #    $CurrentSong >> $OutPutFileName
+            $OutPutFileName = $OutputFolder + $hymnnumber.PadLeft(3,'0') + ' ' + $firstline # Opensong files have no extension
             $CurrentSong | Out-File -Encoding "UTF8" $OutPutFileName    #must be formatted in UTF8-BOM for opensong
   
            #Begin work on the current song
@@ -70,7 +69,8 @@ foreach ($line in $source)
     #Regular Line of a song
     if ($line -match '[A-Z]+ ') 
         {   
-              #to-do collect first line
+              $line =  $line -replace $alphapattern+' ',''  #todo make new pattern that includes some punctuation
+              $line = $line -replace '1. ',''
               $CurrentSong = $CurrentSong + ' ' + $line + $EOL
               if ($isfirstline -eq '1') {
                   $firstline = $line -replace $alphapattern+' ','' #remove punctuation from first line so it can be used in filenames etc
