@@ -1,4 +1,4 @@
-# This hopes to evaluate the source PHSS file and output text for XML and Opensong
+# This will evaluate the source PHSS txt file and output files formatted for Opensong
 
 Param(
 [string]$Filepath,
@@ -13,7 +13,8 @@ $EOL = "`r`n"
 $alphapattern = '[^a-zA-Z]'
 $numberpattern = '[^0-9]'
 $isfirstline = '1'
-$CurrentSong = '<?xml version="1.0" encoding="UTF-8"?>' + $EOL + ' <song> '
+$SongHeader = '<?xml version="1.0" encoding="UTF-8"?>' + $EOL + ' <song> '
+$CurrentSong = $SongHeader
 
 
 foreach ($line in $source)
@@ -32,9 +33,9 @@ foreach ($line in $source)
                         <ccli></ccli>
                         <capo print="false"></capo>
                         <key></key>
-                        <aka></aka>
-                        <key_line></key_line>
-                        <user1></user1>
+                        <aka></aka>'+ $EOL
+                        $CurrentSong = $CurrentSong + "<key_line>$firstline</key_line>"+ $EOL
+                        $CurrentSong = $CurrentSong + '<user1></user1>
                         <user2></user2>
                         <user3></user3>
                         <theme></theme>
@@ -49,14 +50,9 @@ foreach ($line in $source)
             $CurrentSong | Out-File -Encoding "UTF8" $OutPutFileName
   
            #Begin work on the current song
-            
-            $SongTuneName = $line -replace $alphapattern,''
-            $CurrentSong = '<?xml version="1.0" encoding="UTF-8"?>' + $EOL + ' <song> '+ $EOL
-            $CurrentSong = $CurrentSong + '<title>' + $line + '</title>'+ $EOL + '<lyrics>[V1]' + $EOL
-            $hymnnumber = $line  -replace $numberpattern,''  #TO-DO fix this, it's not working
-            write-host full line $line
-            write-host hymn number $hymnnumber 
-            write-host tune $SongTuneName
+            $SongTuneName = $line -replace $alphapattern,''  #Clean numbers from this line
+            $CurrentSong =  $SongHeader + $EOL + '<title>' + $line + '</title>'+ $EOL + '<lyrics>[V1]' + $EOL   #Make New CurrentSong
+            $hymnnumber = $line  -replace $numberpattern,''  #Remove the tune name from the new song line, only the hymn number remains
             $isfirstline = '1'
 
         }
@@ -65,7 +61,7 @@ foreach ($line in $source)
     #check for new verse
      if ($line -match '[2-9]+\.')  #Add - and DOES have a dot after the nunber regex > \n[1-9]+\.
         {     
-           $line = $line  -replace $numberpattern,''
+           $line = $line  -replace $numberpattern,''  #remove the dot from the verse 
            $line = '[V' + $line + ']'
             $CurrentSong = $CurrentSong + $line + $EOL
 
@@ -77,10 +73,8 @@ foreach ($line in $source)
               #to-do collect first line
               $CurrentSong = $CurrentSong + ' ' + $line + $EOL
               if ($isfirstline -eq '1') {
-                  $firstline = $line -replace $alphapattern+' ',''
-        #TO-DO remove punctuation from first line
+                  $firstline = $line -replace $alphapattern+' ','' #remove punctuation from first line so it can be used in filenames etc
                   $isfirstline = 0
-
               }
         }
 
