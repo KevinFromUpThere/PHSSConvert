@@ -22,7 +22,7 @@ foreach ($line in $source)
 
     #Check for new song
     #If new song, Save previous song to file
-     if ($line -match '[1-9]+ ')  #Add = but does not have a dot after the number  regex > "\n[1-9]+ "
+     if ($line -match '[0-9]+ ')  #Add = but does not have a dot after the number  regex > "\n[1-9]+ "
         {     
            #finish the previous song file
             $CurrentSong = $CurrentSong + '</lyrics>
