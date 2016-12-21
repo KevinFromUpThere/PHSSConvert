@@ -22,7 +22,7 @@ foreach ($line in $source)
 
     #Check for new song
     #If new song, Save previous song to file
-     if ($line -match '[1-9]+ ')  #Add = but does not have a dot after the number  regex > "\n[1-9]+ "
+     if ($line -match '[0-9]+ ')  #Add = but does not have a dot after the number  regex > "\n[1-9]+ "
         {     
            #finish the previous song file
             $CurrentSong = $CurrentSong + '</lyrics>
@@ -45,39 +45,41 @@ foreach ($line in $source)
                        $CurrentSong = $CurrentSong + '<backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>'+ $EOL + '</song>'+ $EOL
 
            #Handle writing of the previous song
-            $OutPutFileName = $OutputFolder + $hymnnumber + ' ' + $firstline #+ '.txt'
-        #    $CurrentSong >> $OutPutFileName
-            $CurrentSong | Out-File -Encoding "UTF8" $OutPutFileName
+            $OutPutFileName = $OutputFolder + $hymnnumber.PadLeft(3,'0') + ' ' + $firstline # Opensong files have no extension
+            $CurrentSong | Out-File -Encoding "UTF8" $OutPutFileName    #must be formatted in UTF8-BOM for opensong
   
            #Begin work on the current song
             $SongTuneName = $line -replace $alphapattern,''  #Clean numbers from this line
             $CurrentSong =  $SongHeader + $EOL + '<title>' + $line + '</title>'+ $EOL + '<lyrics>[V1]' + $EOL   #Make New CurrentSong
             $hymnnumber = $line  -replace $numberpattern,''  #Remove the tune name from the new song line, only the hymn number remains
             $isfirstline = '1'
-
+            $SongNameLine = '1'
         }
 
 
     #check for new verse
-     if ($line -match '[2-9]+\.')  #Add - and DOES have a dot after the nunber regex > \n[1-9]+\.
+     if ($line -match '[2-9]+\.')  #Add - and DOES have a dot after the nunber regex > \n[1-9]+\.  Start at verse 2 because verse 1 is handled at the begining of file
         {     
            $line = $line  -replace $numberpattern,''  #remove the dot from the verse 
            $line = '[V' + $line + ']'
             $CurrentSong = $CurrentSong + $line + $EOL
+            $SongNameLine = 0
 
         }
 
     #Regular Line of a song
-    if ($line -match '[A-Z]+ ') 
+    if ($line -match '[A-Z]+ ' -and $SongNameLine -eq 0) 
         {   
-              #to-do collect first line
+              $line =  $line -replace $alphapattern+' ',''  #todo make new pattern that includes some punctuation
+              $line = $line -replace '1. ',''
               $CurrentSong = $CurrentSong + ' ' + $line + $EOL
               if ($isfirstline -eq '1') {
-                  $firstline = $line -replace $alphapattern+' ','' #remove punctuation from first line so it can be used in filenames etc
+                  $firstline = $line -replace '[^a-zA-Z ]','' #remove punctuation from first line so it can be used in filenames etc
                   $isfirstline = 0
               }
+          
         }
 
-
+  $SongNameLine = 0  
 
 }    
