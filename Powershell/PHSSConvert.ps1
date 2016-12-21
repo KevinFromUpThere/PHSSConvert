@@ -53,7 +53,7 @@ foreach ($line in $source)
             $CurrentSong =  $SongHeader + $EOL + '<title>' + $line + '</title>'+ $EOL + '<lyrics>[V1]' + $EOL   #Make New CurrentSong
             $hymnnumber = $line  -replace $numberpattern,''  #Remove the tune name from the new song line, only the hymn number remains
             $isfirstline = '1'
-
+            $SongNameLine = '1'
         }
 
 
@@ -63,11 +63,12 @@ foreach ($line in $source)
            $line = $line  -replace $numberpattern,''  #remove the dot from the verse 
            $line = '[V' + $line + ']'
             $CurrentSong = $CurrentSong + $line + $EOL
+            $SongNameLine = 0
 
         }
 
     #Regular Line of a song
-    if ($line -match '[A-Z]+ ') 
+    if ($line -match '[A-Z]+ ' -and $SongNameLine -eq 0) 
         {   
               $line =  $line -replace $alphapattern+' ',''  #todo make new pattern that includes some punctuation
               $line = $line -replace '1. ',''
@@ -76,8 +77,9 @@ foreach ($line in $source)
                   $firstline = $line -replace '[^a-zA-Z ]','' #remove punctuation from first line so it can be used in filenames etc
                   $isfirstline = 0
               }
+          
         }
 
-
+  $SongNameLine = 0  
 
 }    
