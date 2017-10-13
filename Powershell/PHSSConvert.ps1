@@ -1,9 +1,12 @@
 # This will evaluate the source PHSS txt file and output files formatted for Opensong
 
-Param(
+<# Param(
 [string]$Filepath,
 [string]$OutputFolder
-)
+) #>
+
+$Filepath = "C:\github\PHSSConvert\data\txt\Part2Formatted.txt"
+$OutputFolder = "C:\github\PHSSConvert\data\output\"
 
 $source = Get-Content $Filepath
 $maxlines = $source.count
@@ -20,9 +23,16 @@ $CurrentSong = $SongHeader
 foreach ($line in $source)
 {
 
+    #Empty Line, go to next line
+<#     if ($line -match '[ ]+') 
+    {   
+        continue 
+    }
+ #>
+
     #Check for new song
     #If new song, Save previous song to file
-     if ($line -match '[1-9]+ ')  #Add = but does not have a dot after the number  regex > "\n[1-9]+ "
+     if ($line -match '[0-9]+ ')  #Add = but does not have a dot after the number  regex > "\n[1-9]+ "
         {     
            #finish the previous song file
             $CurrentSong = $CurrentSong + '</lyrics>
